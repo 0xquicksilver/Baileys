@@ -19,7 +19,6 @@
 	"scripts": {
 		"test": "jest",
 		"prepare": "tsc",
-		"install": "npm run build:tsc",
 		"build:all": "tsc && typedoc",
 		"build:docs": "typedoc",
 		"build:tsc": "tsc",
